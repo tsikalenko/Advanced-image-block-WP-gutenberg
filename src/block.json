@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "tsikalenko/advanced-image-block",
+	"version": "0.1.0",
+	"title": "Tsikalenko-advanced-image-block",
+	"category": "media",
+	"icon": "format-image",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "tsikalenko-advanced-image-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
