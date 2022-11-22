@@ -17,14 +17,12 @@ const Edit = ({attributes, setAttributes}) => {
 			);
 		} else {
 			return (
-				<div>
-					<Button
-						onClick={openEvent}
-						className='button button-large'
-					>
-						Pick an image
-					</Button>
-				</div>
+				<Button
+					onClick={openEvent}
+					className='button button-large'
+				>
+					Pick an image
+				</Button>
 			);
 		}
 	};
@@ -42,7 +40,7 @@ const Edit = ({attributes, setAttributes}) => {
 				onChange={content => setAttributes({title: content})}
 				value={attributes.title}
 				tagName='p'
-				placeholder='Your image title'
+				placeholder='Image title'
 				style={{color: color}}
 			/>
 
@@ -50,11 +48,11 @@ const Edit = ({attributes, setAttributes}) => {
 				onChange={content => setAttributes({imageAlt: content})}
 				value={attributes.imageAlt}
 				tagName='p'
-				placeholder='Your image alt'
+				placeholder='Image alt'
 			/>
 
 			<SelectControl
-				lable='Level'
+				label='Title level:'
 				value={level}
 				options={[
 					{label: 'h1', value: 'h1'},
